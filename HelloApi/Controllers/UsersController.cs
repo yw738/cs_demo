@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using HelloApi.Data;
 using HelloApi.Models;
 using Swashbuckle.AspNetCore.Annotations;  // 需要添加这个 using
+using Request.userDto;
+using Req.Dto;
 
 namespace HelloApi.Controllers;
 
@@ -40,14 +42,22 @@ public class UsersController : ControllerBase
         {
             return NotFound();
         }
-        return Ok(new { success = true, data = user });
+        return Ok(new ApiResponse<string>(true, " ", "user")
+        {
+            Data = user.Name
+        });
     }
 
     // POST: api/users
     [HttpPost]
-    public async Task<ActionResult<User>> CreateUser([FromBody] User user)
+    public async Task<IActionResult> CreateUser(UserDto user)
     {
-        _context.Users.Add(user);
+        _context.Users.Add(new User()
+        {
+            Name = user.Name,
+            Age = user.Age,
+            Email = "asfsa@qq.com",
+        });
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
     }

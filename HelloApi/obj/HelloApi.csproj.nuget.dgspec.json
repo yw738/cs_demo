@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\demo\\cs\\HelloApi\\HelloApi.csproj": {}
+    "e:\\demo\\cs\\HelloApi\\HelloApi.csproj": {}
   },
   "projects": {
-    "E:\\demo\\cs\\HelloApi\\HelloApi.csproj": {
+    "e:\\demo\\cs\\HelloApi\\HelloApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\demo\\cs\\HelloApi\\HelloApi.csproj",
+        "projectUniqueName": "e:\\demo\\cs\\HelloApi\\HelloApi.csproj",
         "projectName": "HelloApi",
-        "projectPath": "E:\\demo\\cs\\HelloApi\\HelloApi.csproj",
+        "projectPath": "e:\\demo\\cs\\HelloApi\\HelloApi.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\demo\\cs\\HelloApi\\obj\\",
+        "outputPath": "e:\\demo\\cs\\HelloApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

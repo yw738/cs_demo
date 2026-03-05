@@ -138,3 +138,4 @@ e:\demo\cs\HelloApi\obj\Debug\net9.0\refint\HelloApi.dll
 e:\demo\cs\HelloApi\obj\Debug\net9.0\HelloApi.pdb
 e:\demo\cs\HelloApi\obj\Debug\net9.0\HelloApi.genruntimeconfig.cache
 e:\demo\cs\HelloApi\obj\Debug\net9.0\ref\HelloApi.dll
+e:\demo\cs\HelloApi\obj\Debug\net9.0\HelloApi.sourcelink.json
