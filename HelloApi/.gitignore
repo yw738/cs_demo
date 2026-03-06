@@ -4,6 +4,7 @@ node_modules/
 src/mockApi/
 dist/
 obj/
+bin/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
